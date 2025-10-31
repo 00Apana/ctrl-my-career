@@ -1,0 +1,170 @@
+/*---page setup*/
+body{
+    background: linear-gradient(135deg,rgb(82,74,90),rgb(40,35,45));
+    color: white;
+    font-family:"Poppins", Arial,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*--Navigation Bar--*/
+nav{
+  background-color: rgba(0, 0,0, 0.3);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+nav a{
+  color:white;
+}
+
+/*Heading*/
+h1{
+    color: yellowgreen;
+    margin-top: 50px;
+}
+
+h2{
+    color: lightgrey;
+    font-size: normal;
+}
+
+/*paragraph*/
+p{
+    width: 70%;
+    margin: 10px;
+    line-height: 15 auto;
+}
+
+/*social links*/
+#social-links{
+    margin-top: 20px;
+}
+
+#social-links a{
+    color: yellowgreen;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#social-links a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/*container layout*/
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50 auto;
+}
+
+/* --- My Projects --- */
+#my-projects {
+  margin-top: 40px;
+}
+
+#my-projects h3 {
+  color: yellowgreen;
+  margin-bottom: 10px;
+}
+
+#my-projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#my-projects li {
+  margin: 8px 0;
+}
+
+#my-projects a {
+  color: white;
+  text-decoration: none;
+  background-color: yellowgreen;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* --- My Projects --- */
+#my-projects {
+  margin-top: 40px;
+}
+
+#my-projects h3 {
+  color: yellowgreen;
+  margin-bottom: 10px;
+}
+
+#my-projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#my-projects li {
+  margin: 8px 0;
+}
+
+#my-projects a {
+  color: white;
+  text-decoration: none;
+  background-color: yellowgreen;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#my-projects a:hover {
+  background-color: white;
+  color: yellowgreen;
+}
+
+*/--Profile Image--*/
+.profile img{
+    width: 60px;;
+    height: 30px;
+    border-radius: 20px;
+    border: 4px solid yellowgreen;
+    margin-top: 100px;
+    object-fit: cover;
+    box-shadow: 00 10px rgba(0, 0,0, 0.3);
+}
+
+/*--General Polish--*/
+h1,h2,h3,p,li{
+    transition: all0.3 ease;
+}
+
+.container{
+    box-shadow: 00 20px rgba(0, 0,0, 0.3);
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 40px 20px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+h1:hover{
+    color:white;
+    letter-spacing: 2px;
+    text-shadow: 008px yellowgreen;
+}
